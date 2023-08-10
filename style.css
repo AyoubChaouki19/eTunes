@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@300&family=Ubuntu:ital@1&display=swap');
+body {
+    font-family: "PT Sans", sans-serif;
+    background-color: #444;
+    margin: 0;
+  }
+  #showcase{
+    color: #eee;
+    text-align: center;
+    padding-top: 25vh;
+    padding-left: 7vh;
+    padding-right: 7vh;
+    background-image: url('showcase.jpg');
+    background-size: cover;
+    height: 100vh;
+  }
+  h1{
+    font-size: 4rem;
+  }
+  h2{
+    font-size: 2.4rem;
+  }
+  h3{
+    font-size: 1.6rem;
+  }
+  h4{
+    font-size: 1.2rem;
+  }
+  nav {
+    height: 40px;
+    width: 100%;
+    background-color: #333;
+    color: #eee;
+    overflow-y: hidden;
+    position: fixed;
+  }
+  nav ul {
+    padding: 0;
+    margin: 0;
+  }
+  nav li {
+    display: inline;
+    float: left;
+  }
+  nav a {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #eee;
+  }
+  nav li:hover {
+    background-color: #444;
+  }
+  nav a#openup {
+    display: none;
+  }
+/* Music CSS */
+button{
+    color: #eee;
+    position: relative;
+    height: 65px;
+    width: 210px;
+    margin: 0 40px;
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+    background: #0d0d0d;
+    overflow: hidden;
+    transition: 0.6s;
+    color: #206592;
+    border-color: #206592;
+  }
+  .button-link {
+    color: inherit;
+    text-decoration: none; 
+  }  
+  button:before, button:after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    filter: blur(30px);
+    opacity: 0.4;
+    transition: 0.6s;
+  }
+  button:before{
+    width: 60px;
+    background: rgba(255,255,255,0.6);
+    transform: translateX(-130px) skewX(-45deg);
+  }
+  button:after{
+    width: 30px;
+    background: rgba(255,255,255,0.6);
+    transform: translateX(-130px) skewX(-45deg);
+  }
+  button:hover:before,
+  button:hover:after{
+    opacity: 0.6;
+    transform: translateX(320px) skewX(-45deg);
+  }
+  button:hover{
+    color: #f2f2f2;
+  }
+  button:hover{
+    background: #206592;
+  }
+#Music{
+overflow-y: hidden;
+background-color: #333;
+color: #eee;
+text-align: center;
+padding-left: 7vh;
+padding-right: 7vh;
+}
+img{
+width: 90%;
+}
+.button2{
+  color: #eee!important;
+}
+#Video{
+  background-color: #eee;
+  text-align: center;
+  overflow-y: hidden;
+  padding-left: 8vh;
+  padding-right: 8vh;
+}
+.text{
+  overflow-y: hidden;
+  height: 60vh;
+  text-align: center;
+  background-image: url('section-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #eee;
+  padding-top: 25vh;
+  padding-left: 15vh;
+  padding-right: 15vh;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  background-color: #eee;
+  color: #0d0d0d;
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+.item1{
+  flex: 1;
+}
+.item2{
+  flex: 1;
+}
+.lorem-text{
+  font-weight: 400;
+}
+.header{
+  font-weight: 900;
+  font-size: 30px;
+}
+footer{
+  background-color: #333;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.title{
+  color: #eee;
+  font-size: 1.4rem;
+}
+.item{
+  color: #979A9A;
+  width: 300px;
+}
+hr{
+  color: #979A9A;
+}
+.copyright{
+  width: 100%;
+  text-align: center;
+  color: #eee;
+  background-color: #444;
+}
